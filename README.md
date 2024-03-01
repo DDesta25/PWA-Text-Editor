@@ -10,6 +10,9 @@ This project was built using Webpack, Babel, and CodeMirror to create a progress
   ## Description
   
   This project was creating a text editor that runs in the browser. The app is a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+
+  ## Deployment link 
+  https://pwa-text-editor-xeab.onrender.com/
   
   ## Table of Contents 
   
@@ -53,7 +56,7 @@ npm i all dependencies
 
 ## Screenshots
 
-
+![alt text](image.png)
 
   ## Usage
   
@@ -76,7 +79,7 @@ A short and simple permissive license with conditions only requiring preservatio
   ## How to Contribute
   Daniel Desta
 
-  https://github.com/DDesta25/Social-Network
+https://github.com/DDesta25/PWA-Text-Editor
   
   ## Tests
   npm start
