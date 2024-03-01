@@ -1,6 +1,7 @@
 # PWA-Text-Editor
 
-
+## About The Project
+This project was built using Webpack, Babel, and CodeMirror to create a progressive web app text editor themed around jate
 
 
   ![Static Badge](https://img.shields.io/badge/license-mit-brightgreen)
@@ -8,7 +9,7 @@
 
   ## Description
   
-  <!-- This project was creating Users, thoughts and adding reactions, and friends. Once you fill out the routes and the models it should run properly on insomnia and it should show GET and POST properly in the url for each one. It also allows you to create a friend and delete a friend. The same thing with adding a reaction and deleting the reaction. -->
+  This project was creating a text editor that runs in the browser. The app is a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
   
   ## Table of Contents 
   
@@ -50,10 +51,6 @@ npm i all dependencies
 }
 
 
-
-## Screen Recording
-
-
 ## Screenshots
 
 
@@ -61,8 +58,13 @@ npm i all dependencies
   ## Usage
   
   
- used in insomnia to to get the data for each output selected, for example when you POST it in the url it should bring you a preview of your expected data.
-  
+To run in the app locally, run npm i to install all you're dependencies.
+
+Then, run npm run start to launch the application
+
+To install the application while it's running locally, open the application at https://localhost:3000 and click on the install button
+
+You can follow the prompts to complete the installation to operate this app offline if need be.
   
   
   ## License
@@ -79,3 +81,5 @@ A short and simple permissive license with conditions only requiring preservatio
   ## Tests
   npm start
   npm run start
+## Acknowledgments
+I would like to appreciate the help from my TA Mary, and my instructor John for all the help to get this done.
