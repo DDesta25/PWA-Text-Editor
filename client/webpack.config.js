@@ -20,9 +20,9 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "L.I.O.N.S",
+        title: "jate",
         favicon: "./favicon.ico",
-      }),
+    }),
       // Injects the custom service worker
       new InjectManifest({
         swSrc: "./src-sw.js",
@@ -32,22 +32,22 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "Lion Impregnable Online Network Software",
-        short_name: "L.I.O.N.S",
-        description: "Powerful network software for lions!",
+        name: "jate Impregnable Thoughts Text In-Line Editing Software",
+        short_name: "jate",
+        description: "Thoughts that you can't even get rid of!",
         favicon: "./favicon.ico",
         background_color: "#faf8f5",
         theme_color: "#b29762",
         start_url: "/",
         publicPath: "/",
         icons: [
-          {
-            src: path.resolve("src/images/logoNew.png"),
-            sizes: [96, 128, 192, 256, 384, 512],
-            destination: path.join("assets", "icons"),
-          },
+            {
+                src: path.resolve("src/images/logoNew.png"),
+                sizes: [96, 128, 192, 256, 384, 512],
+                destination: path.join("assets", "icons"),
+            },
         ],
-      }),
+    }),
     ],
 
     module: {
